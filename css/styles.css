@@ -94,3 +94,23 @@ img#portrait {
   text-align: center;
   font-size: 1.3em;
 }
+
+/* List Styling */
+
+ul.projects-tier-1 {
+  list-style-type: none;
+}
+
+.loose li {
+  font-size: 1.2em;
+}
+
+.ProjLink {
+  text-align: center;
+  padding: 30px;
+}
+
+li.projects-tier-4 {
+  padding: 5px;
+  color: black;
+}
