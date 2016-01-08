@@ -21,7 +21,11 @@ h3 {
   text-align: center;
 }
 
-/* Carousel Styling */
+strong {
+  text-decoration: underline;
+}
+
+/* ----------Carousel Styling----------- */
 
 #myCarousel {
   background-color: #C0ADCE;
@@ -57,7 +61,7 @@ h3 {
 #myCarousel p {
   text-align: center;
 }
-
+/* Hides Carousel Controls when not moused over */
 .carousel .carousel-control {
   visibility: hidden;
 }
@@ -66,7 +70,7 @@ h3 {
    visibility: visible;
  }
 
-/* Sidebar Styling */
+/* ----------Sidebar Styling----------- */
 
 .right-sidebar {
   background-color: #A5BCCA; /*#C0ADCE;*/
@@ -88,21 +92,21 @@ img#portrait {
   text-align: left;
 }
 
-/* Loose Text Styling */
+/* -----------Loose Text Styling------------ */
 
 .loose p {
   text-align: center;
   font-size: 1.3em;
 }
 
-/* List Styling */
+/* -----------List Styling----------- */
 
 ul.projects-tier-1 {
   list-style-type: none;
 }
 
-.loose li {
-  font-size: 1.2em;
+.projects-tier-1 li {
+  font-size: 1.1em;
 }
 
 .ProjLink {
@@ -113,4 +117,8 @@ ul.projects-tier-1 {
 li.projects-tier-4 {
   padding: 5px;
   color: black;
+}
+
+li.projects-tier-5 {
+  margin: 0px 10px 0px 10px;
 }
