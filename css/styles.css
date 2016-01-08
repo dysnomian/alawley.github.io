@@ -20,7 +20,9 @@ h2 {
 p {
   text-align: center;
 }
+
 /* Carousel Styling */
+
 #myCarousel {
   background-color: #C0ADCE;
   background-image: linear-gradient(
@@ -63,4 +65,25 @@ p {
 .carousel:hover .carousel-control {
    visibility: visible;
  }
-/* sidebar color: #C0ADCE */
+
+/* Sidebar Styling*/
+
+.right-sidebar {
+  background-color: #C0ADCE;
+  float: right;
+  width: 28%;
+  padding-right: 8px;
+}
+
+img#portrait {
+  height: 200px;
+  width: auto;
+  align-self: center;
+  border-radius: 50%;
+  float: left;
+  padding: 4px;
+}
+
+.right-sidebar h4 {
+  text-align: center;
+}
