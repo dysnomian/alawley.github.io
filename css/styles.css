@@ -26,8 +26,8 @@ p {
 #myCarousel {
   background-color: #C0ADCE;
   background-image: linear-gradient(
-    #D2D2D2, #C0ADCE
-    );
+    #D2D2D2, #A5BCCA
+    );/*#C0ADCE*/
 }
 
 .carousel-indicators {
@@ -69,7 +69,7 @@ p {
 /* Sidebar Styling*/
 
 .right-sidebar {
-  background-color: #C0ADCE;
+  background-color: #A5BCCA; /*#C0ADCE;*/
   float: right;
   width: 28%;
   padding-right: 8px;
