@@ -34,4 +34,10 @@ h1 {
   border-color: #222222;
   border-width: 2px;
 }
+
+#myCarousel {
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+}
 /* sidebar color: #C0ADCE */
