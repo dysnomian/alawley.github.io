@@ -17,7 +17,7 @@ h2 {
   text-align: center;
 }
 
-p {
+h3 {
   text-align: center;
 }
 
@@ -66,7 +66,7 @@ p {
    visibility: visible;
  }
 
-/* Sidebar Styling*/
+/* Sidebar Styling */
 
 .right-sidebar {
   background-color: #A5BCCA; /*#C0ADCE;*/
@@ -85,5 +85,12 @@ img#portrait {
 }
 
 .right-sidebar h4 {
+  text-align: left;
+}
+
+/* Loose Text Styling */
+
+.loose p {
   text-align: center;
+  font-size: 1.3em;
 }
