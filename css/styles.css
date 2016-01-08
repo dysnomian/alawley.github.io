@@ -1,5 +1,6 @@
 body {
   background-color: #B3CEAD;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 h1 {
@@ -8,7 +9,6 @@ h1 {
   background-color: #eeeeee;
   text-align: center;
   padding: 8px;
-  font-family: Tahoma, Geneva, sans-serif;
   font-weight: normal;
   font-size: 3em;
 }
@@ -39,5 +39,13 @@ h1 {
   height: 300px;
   width: auto;
   overflow: hidden;
+}
+
+#myCarousel h2 {
+  text-align: center;
+}
+
+#myCarousel p {
+  text-align: center;
 }
 /* sidebar color: #C0ADCE */
