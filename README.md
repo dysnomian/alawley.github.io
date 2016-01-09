@@ -7,7 +7,8 @@
 This is a landing page for my gh-pages page, done as part of the Epicodus Intro to Programming Week 1 code review challenge. Per the assignment, it contains my name, an about me section with an image, a variety of HTML tags, bootstrap styling, and a custom CSS stylesheet.
 
 ## Setup
-Clone this repository and open index.html in a modern  web browser of your choice.
+Clone this repository and open index.html in a modern  web browser of your choice.  
+Alternatively, view on gh-pages at: http://alawley.github.io/
 
 
 ## Technologies Used
