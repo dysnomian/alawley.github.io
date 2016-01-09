@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <title>My Projects - Anna Lawley</title>
+  </head>
+
+  <body>
+    <h1>Anna Lawley</h1>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide jumbotron" data-interval="false">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li class ="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <h2>Featured Projects</h2>
+            <p class="lead">Here are a few of the more polished projects I've worked on in class here at Epicodus.</p>
+          </div>
+          <div class="item">
+            <h2>Croatian Travel Page</h2>
+            <p class="lead">This was my first project using bootstrap to create style elements.</p>
+            <p>
+              <a class="button btn-primary btn-lg" href="https://github.com/ALawley/epicodus-travel-page" target="_blank">View repo on GitHub!</a>
+              <a class="button btn-success btn-lg" href="http://alawley.github.io/epicodus-travel-page/" target="_blank">View on GH-pages!</a>
+            </p>
+          </div>
+          <div class="item">
+            <h2>Animal Shelter Page</h2>
+            <p class="lead">This was a project where we used CSS floats to create a grid-like effect, before we learned how to make actual grids, so they're just a little offset. Still pretty, though!</p>
+            <p>
+              <a class="button btn-primary btn-lg" href="https://github.com/ALawley/epicodus-animal-shelter" target="_blank">View repo on Github!</a>
+              <a class="button btn-success btn-lg" href="http://alawley.github.io/epicodus-animal-shelter/" target="_blank">View on gh-pages!</a>
+            </p>
+          </div>
+          <div class="item">
+            <h2>Island Resort Page</h2>
+            <p class="lead">This was a project when we were first learning CSS. We had just learned about backgrounds and the box model, and used them to nice effect here.</p>
+            <p>
+              <a class="button btn-primary btn-lg" href="https://github.com/ALawley/epicodus-resort-exercise" target="_blank">View repo on Github!</a>
+              <a class="button btn-success btn-lg" href="http://alawley.github.io/epicodus-resort-exercise/" target="_blank">View on gh-pages!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
+    <!-- End Carousel -->
+    <!-- About Me Sidebar -->
+    <div class="right-sidebar">
+      <img src="img/Profile_selfie.jpg" id="portrait" alt="A picture of me!">
+      <h4>About Me</h4>
+      <hr>
+      <p>I recently moved to Portland to live with my girlfriend, and as I'd be leaving my previous job as a result, enrolled at Epicodus to give my previous self-directed tech study more structure in the hopes of turning it into a career path. When not in class, I love cooking, home brewing, and mixing drinks, and I'm an avid supporter of both of Portland's professional soccer teams, the Timbers and the Thorns.
+    </div>
+    <!-- End Sidebar-->
+    <div class="loose">
+      <h3>Professional Interest</h3>
+      <hr>
+      <p>Currently my studies at Epicodus have primarily involved HTML, CSS, and Bootstrap, with JavaScript soon to come. In the near future, I'm particularly interested in learning about full-stack JavaScript, and would like to dip my toes into a functional programming language one day.</p>
+    </div>
+    <!--Collapsing list of projects. Lots of lines of nested lists, so keeping each button collapsed in this file for readability.-->
+      <h3>Completed Class Projects:</h3>
+      <ul class="projects-tier-1">
+        <li class="projects-tier-4"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Thursday">Thursday, Jan 7th&nbsp;&nbsp;<b class="caret"></b></button>
+          <div id="Thursday" class="collapse">
+            <ol>
+              <li class="projects-tier-5"><strong>Travel Page</strong> - Our first page made with bootstrap, we created a navbar, jumbotron, and image carousel.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-travel-page" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-travel-page" class="ProjLink">View</a>
+                </p>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li class="projects-tier-4"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Wednesday">Wednesday, Jan 6th&nbsp;&nbsp;<b class="caret"></b></button>
+          <div id="Wednesday" class="collapse">
+            <ol>
+              <li class="projects-tier-5"><strong>Animal Shelter Page</strong> - We used this one to learn about CSS floats, creating a row of columns with them.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-animal-shelter" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-animal-shelter" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Interior Decorator Page</strong> - Another assignment using floats, we created before/during/after columns with them.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-interior-decorator" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-interior-decorator" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Band Fansite</strong> - For this one we made a quick band fan site using floats to create a sidebar and align text.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-favorite-band" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-favorite-band" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Food Blog</strong> - This was an assignment involving using divs to style a chunk of text differently than the rest.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-css-blog" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-css-blog" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Resume</strong> - This assignment involved using divs and spans to style different parts of the page separately.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-resume-project" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-resume-project" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Cupcake Shop Page</strong> - In this project we used classes to style certain elements differently than others.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-cupcake-shop" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-cupcake-shop" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Boring DMV Lecture</strong> - Another project using classes. Thankfully less boring than the DMV.<br>
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-boring-lecture" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-boring-lecture" class="ProjLink">View</a>
+                </p>
+            </ol>
+          </div>
+        </li>
+        <li class="projects-tier-4"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Tuesday">Tuesday, Jan 5th&nbsp;&nbsp;<b class="caret"></b></button>
+          <div id="Tuesday" class="collapse">
+            <ol>
+              <li class="projects-tier-5"><strong>Island Resort</strong> - Our end of the day assignment, we had fun using css to create a visually pleasing, if barebones, site.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-resort-exercise" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-resort-exercise" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>First Page</strong> - The first webpage we built, we slowly expanded this one out with CSS and HTML
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-first-page" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-first-page" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>My Favorite Things</strong> - Early HTML practice, this later became a component of the <em>"First Page"</em> project
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-favorite-things" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-favorite-things"
+                  class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Cat Homepage</strong> - Who doesn't make a homepage for their cat? (Or a hypothetical cat, at least)
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-cat-homepage" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-cat-homepage" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Dog Blog</strong> - Because dogs have feelings too.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-dog-blog" class="ProjLink">Repo</a>
+                  <a class="button btn-success btn-sm" href="https://alawley.github.io/epicodus-dog-blog" class="ProjLink">View</a>
+                </p>
+              </li>
+              <li class="projects-tier-5"><strong>Bad HTML</strong> - For this exercise we were given a bunch of broken and poorly indented HTML and tasked with fixing it.
+              <p>
+                <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-bad-html" class="ProjLink">Repo</a>
+              </p>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li class="projects-tier-4"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Monday">Monday, Jan 4th&nbsp;&nbsp;<b class="caret"></b></button>
+          <div id="Monday" class="collapse">
+            <ol>
+              <li class="projects-tier-5"><strong>Markdown Project</strong> - This was just a simple exercise in Markdown to familiarize ourselves with it and git.
+                <p>
+                  <a class="button btn-primary btn-sm" href="https://github.com/ALawley/epicodus-160104mdproject" class="ProjLink">Repo</a>
+                </p>
+              </li>
+            </ol>
+          </div>
+        </li>
+      </ul>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>
